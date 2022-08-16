@@ -2,7 +2,7 @@
 # *️⃣textual data:
 **message**
 
-    message = 'hello world'
+    message = 'Hello World'
 ## 🟡len
 
     print(len(message)) ⤵️
@@ -12,5 +12,11 @@
    d
 ## 🟡slicing
 ❗from 0 to 5 not including, spaces count too
-    print(message[0:5])
-   hello
+
+    print(message[:5])
+   Hello
+## 🟡lower
+❗lower case
+
+    print(message.lower())
+   hello world
