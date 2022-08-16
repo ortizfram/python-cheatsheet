@@ -22,3 +22,10 @@
     print(message.upper())
    hello world
    HELLO WORLD
+## 🟡count()
+❗must pass an argument
+
+    print(message.count("l"))
+    print(message.count("hello"))
+   3
+   1
