@@ -31,3 +31,11 @@
    3
    
    1
+## 🟡find()
+❗ cause world starts at the 6th index, if `doesnt exist` `-1`
+
+    print(message.find("World"))
+    priont(message.find("universe"))
+   6
+   
+   -1
