@@ -15,7 +15,7 @@
 
     print(message[:5])
    Hello
-## 🟡lower
+## 🟡lower()
 ❗lower case
 
     print(message.lower())
