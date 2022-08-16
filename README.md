@@ -15,8 +15,10 @@
 
     print(message[:5])
    Hello
-## 🟡lower()
-❗lower case
+## 🟡lower(),upper()
+❗lower case, UPPERCASE
 
     print(message.lower())
+    print(message.upper())
    hello world
+   HELLO WORLD
