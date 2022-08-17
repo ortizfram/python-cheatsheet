@@ -348,7 +348,7 @@
    Jane 27
    
 ## 🟡delete, pop()
-    student = {'name':'Jane','age':25,'courses':'Math''CompScience','phone' =555}
+    student = {'name':'Jane','age':25,'courses':['Math','CompScience'],'phone' =555}
     del student['phone']
     
     age = student.pop('age')
@@ -359,6 +359,26 @@
    
    25
  ## 🟡len()
-    student = {'name':'Jane','courses':'Math''CompScience'}
+    student = {'name':'Jane','courses':['Math','CompScience']}
     print(len(student))
    2
+## 🟡print keys,values, or both
+    student = {'name':'Jane','courses':['Math','CompScience']}
+    
+    print(student.keys())
+    print(student.values())
+    print(student.items())
+   dict_keys(['name', 'courses'])
+   
+   dict_values(['Jane', ['Math', 'CompScience']])
+   
+   dict_items([('name', 'Jane'), ('courses', ['Math', 'CompScience'])])
+   
+ ## 🟡for loop
+    for key, value in student.items():
+        print(key, value)
+   name Jane
+   
+   courses ['Math', 'CompScience']
+     
+    
