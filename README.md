@@ -323,3 +323,27 @@
     empty_list = list()
     empty_tuple = tuple()
     empty_set = set()
+# *️⃣Dictionary
+    student = {'name':'John','age':25,'courses':'Math','CompScience'}
+    print(student['name'])
+    print(student.get('age'))
+   John 
+   
+   25
+  ## 🟡 add new entry:
+    student['phone'] = 555
+    print(student['phone'])
+   555
+ ## 🟡update() values:
+    student = {'name':'John','age':25,'courses':'Math''CompScience','phone' :555}
+    student['name'] = 'jane'
+    print(student)
+    
+    or 
+    student.update({'name':'Jane','age': 27})
+    print(student['age'],student['name'])
+   {'name':'Jane','age':25,'courses':'Math','CompScience','phone' =555}
+   
+   Jane 27
+   
+  
