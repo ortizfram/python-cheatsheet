@@ -132,7 +132,9 @@
    300
    
 # *️⃣ Lists, Tuples, and Sets:
-## 🟡list
+## 🟡 🟡 list
+❗**MUTABLE**
+
     list = ['History', 'Math', 'Physics', 'CompScience']
 ### 🟠len()
 ❗gives how many elements are minside
