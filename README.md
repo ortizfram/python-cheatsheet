@@ -149,6 +149,8 @@
     print(list[-1])
    CompScience
 ### 🟠 slicing:
+    list = ['History', 'Math', 'Physics', 'CompScience']
+
 ❗ not including second, from 0 
 
 ❗ from 2 till end
@@ -158,3 +160,18 @@
    ['History', 'Math']
    
    ['Physics', 'CompScience']
+### 🟠append()
+❗ used to append 1 more at the end
+
+    list.append('Art')
+   ['History', 'Math', 'Physics', 'CompScience', 'Art']
+### 🟠insert()
+❗used to insert element in specific location `insert(0, 'Art')`
+
+💁 to insert at the beginning 
+
+    list.insert(0, 'Art')
+   ['Art','History', 'Math', 'Physics', 'CompScience']
+   
+
+   
