@@ -61,7 +61,9 @@
      name =  Fanco
      message = '{}, {}. Welcome!'.format(greeting, name)
  Hello, franco. Welcome!
+ 
  **or**
+ 
  ❗`f` in the beggining of string to say it's `format` , & vars directly inside placeholders `{variable}`
     
       message = f'{greeting}, {name}. Welcome!'
