@@ -197,5 +197,31 @@
    ['History', 'Physics']
    
    CompScience
+### 🟠sort(),reverse():
+💁`reverse()` list
 
+    list.reverse()
+    print(list)
+   ['CompScience', 'Physics', 'Math', 'History']
+   
+💁`sort()` list alphabetic, or numeric
+
+    list = ['History', 'Math', 'Physics', 'CompScience']
+    list.sort()
+    print(list)
+   ['CompScience', 'History', 'Math', 'Physics']
+   
+    nums = [1,5,3,6,4]
+    nums.sort()
+    print(nums)
+   [1, 3, 4, 5, 6]
+   
+💁`sort(reverse=True)` sort backwards
+
+    nums = [1,5,3,6,4]
+    nums.sort(reversed=True)
+    print(nums)
+   [6, 5, 4, 3, 1]
+
+    
    
