@@ -87,5 +87,5 @@
 
 - Modulus: `%`   (gives reminder of division) 3 % 2= 1
 
-❗ even : no reminder x % 2 = 0  // odd : reminder, x % 2 = 1
+❗ even : no reminder 2 % 2 = 0  // odd : reminder, 3 % 2 = 1
 
