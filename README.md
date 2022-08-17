@@ -102,3 +102,16 @@
 
     print(round(3.75, 1))
    3.8
+   
+## 🟡 comparisons: 
+`==`	Equal	
+
+`!=`	Not equal	
+
+`>`	Greater than
+
+`<`	Less than	
+
+`>=`	Greater than or equal to	
+
+`<=`	Less than or equal to
