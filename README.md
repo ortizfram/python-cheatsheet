@@ -151,5 +151,9 @@
 ### 🟠 slicing:
 ❗ not including second, from 0 
 
+❗ from 2 till end
+
     print(list[:2])
    ['History', 'Math']
+    print(list[2:])
+   ['Physics', 'CompScience']
