@@ -197,7 +197,7 @@
    ['History', 'Physics']
    
    CompScience
-### 🟠sort(),reverse():
+### 🟠sort(),reverse(),min(),max():
 💁`reverse()` list
 
     list.reverse()
@@ -222,6 +222,16 @@
     nums.sort(reversed=True)
     print(nums)
    [6, 5, 4, 3, 1]
+   
+💁`max()``min()`
+
+    nums = [1,5,3,6,4]
+    print(max(nums))
+    print(min(nums))
+   6
+   
+   1
+
 
     
    
