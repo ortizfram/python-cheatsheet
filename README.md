@@ -184,7 +184,18 @@
     list.extend(list2)
     print(list)
    ['History', 'Math', 'Physics', 'CompScience', 'Art', 'Education']
+### 🟠 remove(),pop()
+❗`pop()` to remove last value of list , u also can asign a var to it and recall it
 
+     list = ['History', 'Math', 'Physics', 'CompScience']
+
+     list.remove('Math')
+   ['History', 'Physics', 'CompScience']
     
+     popped = list.pop()
+     print(popped)
+   ['History', 'Physics']
+   
+   CompScience
 
    
