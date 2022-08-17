@@ -89,3 +89,16 @@
 
 ❗ even : no reminder 2 % 2 = 0  // odd : reminder, 3 % 2 = 1
 
+## 🟡abs()
+❗ gives absolute value 
+
+    print(abs(-3))
+   3
+## 🟡round()
+    print(round(3.75))
+   4
+
+❗ you can specify how many round digits you want after the comma
+
+    print(round(3.75, 1))
+   3.8
