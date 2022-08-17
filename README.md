@@ -66,6 +66,7 @@
  
  ❗`f` in the beggining of string to say it's `format` , & vars directly inside placeholders `{variable}`
     
-      message = f'{greeting}, {name}. Welcome!'
+      message = f'{greeting}, {name.uppper()}. Welcome!'
+   Hello, FRANCO. Welcome!
     
 
