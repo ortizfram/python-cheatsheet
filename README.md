@@ -154,6 +154,7 @@
 ❗ from 2 till end
 
     print(list[:2])
-   ['History', 'Math']
     print(list[2:])
+   ['History', 'Math']
+   
    ['Physics', 'CompScience']
