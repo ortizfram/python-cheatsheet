@@ -118,7 +118,9 @@
 
 `<=`	Less than or equal to
 
-## 🟡 from string to number int(),float():
+## 🟡 from string to number:
+`int()` or `float()`
+
     num1= '100'
     num2= '200'
     print(num1 + num2)
