@@ -132,7 +132,7 @@
    300
    
 # *️⃣ Lists, Tuples, and Sets:
-## 🟡 🟡 list
+## 🔴list
 ❗👁️‍**MUTABLE**
 
     list = ['History', 'Math', 'Physics', 'CompScience']
@@ -282,11 +282,11 @@
    6
    
    1
-# 🟡 🟡 tuple
+# 🔴 tuple
 ❗ 👁️‍🗨️**IMMUTABLE** (can't append(), can't remove(), can't asign values)
 
     tuple = ('History', 'Math', 'Physics', 'CompSci
-# 🟡 🟡 set
+# 🔴 set
 ❗ 👁️‍🗨️**UNORDERED NO-DUPLICATES** (ORDER CHANGE IN EACH EXECUTION)
 ❗ set is optimize to check if value exist IN set
 
