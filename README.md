@@ -324,7 +324,7 @@
     empty_tuple = tuple()
     empty_set = set()
 # *️⃣Dictionary
-    student = {'name':'John','age':25,'courses':'Math','CompScience'}
+    student = {'name':'John','age':25,'courses':'Math''CompScience'}
     print(student['name'])
     print(student.get('age'))
    John 
@@ -337,13 +337,28 @@
  ## 🟡update() values:
     student = {'name':'John','age':25,'courses':'Math''CompScience','phone' :555}
     student['name'] = 'jane'
-    print(student)
-    
+   
     or 
     student.update({'name':'Jane','age': 27})
+    
+    print(student)
     print(student['age'],student['name'])
    {'name':'Jane','age':25,'courses':'Math','CompScience','phone' =555}
    
    Jane 27
    
-  
+## 🟡delete, pop()
+    student = {'name':'Jane','age':25,'courses':'Math''CompScience','phone' =555}
+    del student['phone']
+    
+    age = student.pop('age')
+    
+    print(age)
+    print(student)
+   student = {'name':'Jane','courses':'Math''CompScience'}
+   
+   25
+ ## 🟡len()
+    student = {'name':'Jane','courses':'Math''CompScience'}
+    print(len(student))
+   2
