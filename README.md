@@ -40,8 +40,17 @@
    
    -1
 ## 🟡replace
+❗ returns a new string replaced, must assign a variable
+
 **message** : "Hello World"
 
-    print(message.replace("World","Universe"))
+    a = print(message.replace("World","Universe"))
+    print(a)
   Hello Universe
+-------------------------------------------------
+    
+    greeting = hi
+    name =  Fanco
+    message = greeting + " " + name
+  hi franco
 
