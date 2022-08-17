@@ -152,3 +152,4 @@
 ❗ not including second, from 0 
 
     print(list[:2])
+   ['History', 'Math']
