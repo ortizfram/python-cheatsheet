@@ -172,6 +172,19 @@
 
     list.insert(0, 'Art')
    ['Art','History', 'Math', 'Physics', 'CompScience']
-   
+### 🟠 extend() 
+❗ `extend`to add multiple values to a list
+
+❗ cause if u use insert, it'll wiill create a double list [[]]
+
+💁 extending list with list 2
+
+    list = ['History', 'Math', 'Physics', 'CompScience']
+    list2 = ['Art', 'Education']
+    list.extend(list2)
+    print(list)
+   ['History', 'Math', 'Physics', 'CompScience', 'Art', 'Education']
+
+    
 
    
