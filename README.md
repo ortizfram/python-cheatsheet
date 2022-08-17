@@ -55,6 +55,8 @@
     message = greeting + " " + name
   hi franco
  
+ ❗ `placeholders` are used to put variables inside strings
+ 
      greeting = hi
      name =  Fanco
      message = '{}, {}. Welcome!'.format(greeting, name)
