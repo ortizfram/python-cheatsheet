@@ -381,4 +381,10 @@
    
    courses ['Math', 'CompScience']
      
-    
+# *️⃣Conditionals & booleans:
+❗booleans start in `True`
+
+    language = 'Python'
+    if language == 'Python':
+        print('Conditional was true')
+   Conditional was true
