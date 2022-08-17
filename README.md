@@ -140,7 +140,7 @@
     list = ['History', 'Math', 'Physics', 'CompScience']
     print(len(list))
    4
-### 🟠indexing, returning, IN(bool),for loop:
+### 🟠indexing, returning, IN(bool):
 ❗always from 0 
 
 💁 `first value` in list `[0]`
@@ -166,6 +166,34 @@
     print('Art' in list)
    False
    
+### 🟠 slicing:
+    list = ['History', 'Math', 'Physics', 'CompScience']
+
+❗ not including second, from 0 
+
+❗ from 2 till end
+
+    print(list[:2])
+    print(list[2:])
+   ['History', 'Math']
+   
+   ['Physics', 'CompScience']
+ ### 🟠 join(), split()
+ ❗`split()` will cut the spicified values you choose from the string and make it a list again
+ 
+    list = ['History', 'Math', 'Physics', 'CompScience']
+    
+    list_str = ' - '.join(list)
+    print(list_str)
+    
+    new_list = list_str.split(' - ')
+   History - Math - Physics - CompScience
+   
+   ['History', 'Math', 'Physics', 'CompScience']
+    
+    
+ 
+ ### 🟠 for loop   
 💁`for loop + enumerate index` starting in 1
 
     list = ['History', 'Math', 'Physics', 'CompScience']
@@ -180,18 +208,6 @@
   3 Physics
    
   4 CompScience
-### 🟠 slicing:
-    list = ['History', 'Math', 'Physics', 'CompScience']
-
-❗ not including second, from 0 
-
-❗ from 2 till end
-
-    print(list[:2])
-    print(list[2:])
-   ['History', 'Math']
-   
-   ['Physics', 'CompScience']
 ### 🟠append()
 ❗ used to append 1 more at the end
 
