@@ -140,7 +140,7 @@
     list = ['History', 'Math', 'Physics', 'CompScience']
     print(len(list))
    4
-### 🟠indexing:
+### 🟠indexing, returning, IN(bool):
 ❗always from 0 
 
     print(list[0])
@@ -154,7 +154,12 @@
     list = ['History', 'Math', 'Physics', 'CompScience']
     print(list.index('Math'))
    1
-    
+  
+💁 `in` boolean
+
+    list = ['History', 'Math', 'Physics', 'CompScience']
+    print('Art' in list)
+   False
 ### 🟠 slicing:
     list = ['History', 'Math', 'Physics', 'CompScience']
 
