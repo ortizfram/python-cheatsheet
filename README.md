@@ -49,9 +49,14 @@
   Hello Universe
   
 -------------------------------------------------
- ## 🟡 concatenate 
+ ## 🟡 concatenate w format() & placeholders
     greeting = hi
     name =  Fanco
     message = greeting + " " + name
   hi franco
+ 
+     greeting = hi
+     name =  Fanco
+     message = '{}, {}. Welcome!'.format(greeting, name)
+ Hello, franco. Welcome!
 
