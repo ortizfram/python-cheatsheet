@@ -282,16 +282,16 @@
    6
    
    1
-# 🔴 tuple
+## 🔴 tuple
 ❗ 👁️‍🗨️**IMMUTABLE** (can't append(), can't remove(), can't asign values)
 
     tuple = ('History', 'Math', 'Physics', 'CompSci
-# 🔴 set
+## 🔴 set
 ❗ 👁️‍🗨️**UNORDERED NO-DUPLICATES** (ORDER CHANGE IN EACH EXECUTION)
 ❗ set is optimize to check if value exist IN set
 
     set = {'History', 'Math', 'Physics', 'CompScience'}
-## 🟠intersection(), difference(), union()
+### 🟠intersection(), difference(), union()
 ❗`intersection()` which `common` between `sets`
 
     cs_courses = {'History', 'Math', 'Physics', 'CompScience'}
