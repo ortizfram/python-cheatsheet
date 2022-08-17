@@ -140,12 +140,17 @@
     list = ['History', 'Math', 'Physics', 'CompScience']
     print(len(list))
    4
-### 🟠indexing, returning, IN(bool):
+### 🟠indexing, returning, IN(bool),for loop:
 ❗always from 0 
 
+💁 first value in list `[0]`
+
+    list = ['History', 'Math', 'Physics', 'CompScience']
     print(list[0])
    History
-   
+💁 last value in list `[-1]` 
+
+    list = ['History', 'Math', 'Physics', 'CompScience']
     print(list[-1])
    CompScience
    
@@ -160,6 +165,19 @@
     list = ['History', 'Math', 'Physics', 'CompScience']
     print('Art' in list)
    False
+   
+💁`for loop`
+
+    list = ['History', 'Math', 'Physics', 'CompScience']
+    for item in list:
+        print(item)
+   History
+   
+   Math
+   
+   Physics
+   
+   CompScience
 ### 🟠 slicing:
     list = ['History', 'Math', 'Physics', 'CompScience']
 
