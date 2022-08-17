@@ -291,7 +291,7 @@
 ❗ set is optimize to check if value exist IN set
 
     set = {'History', 'Math', 'Physics', 'CompScience'}
-## 🟠intersection(), difference()
+## 🟠intersection(), difference(), union()
 ❗`intersection()` which `common` between `sets`
 
     cs_courses = {'History', 'Math', 'Physics', 'CompScience'}
@@ -308,3 +308,13 @@
     
     print(cs_courses.difference(art_courses))
    {'Physics', 'CompScience'}
+   
+❗`union()` `all sets` from `both` united
+
+     
+    cs_courses = {'History', 'Math', 'Physics', 'CompScience'}
+    art_couses = {'History', 'Math', 'Art', 'Design'}
+    
+    print(cs_courses.union(art_courses))
+   #unordered
+   {'History', 'Math', 'Physics', 'CompScience', 'Art', 'Design'}
