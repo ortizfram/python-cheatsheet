@@ -68,5 +68,24 @@
     
       message = f'{greeting}, {name.uppper()}. Welcome!'
    Hello, FRANCO. Welcome!
-    
+   
+# *️⃣Numeric Data:
+## 🟡type()
+**arithmetic operators**
+
+- addition : `+`
+
+- subtraction: `-`
+
+- multiplication: `*`
+
+- Division: `/`
+
+- Floor Division: `//` (no float results) 3//2 = 1
+
+- Exponent: `**` 3**2 = 9
+
+- Modulus: `%`   (gives reminder of division) 3 % 2= 1
+
+❗ even : no reminder x % 2 = 0  // odd : reminder, x % 2 = 1
 
