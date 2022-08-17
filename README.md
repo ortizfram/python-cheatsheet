@@ -143,12 +143,12 @@
 ### 🟠indexing, returning, IN(bool),for loop:
 ❗always from 0 
 
-💁 first value in list `[0]`
+💁 `first value` in list `[0]`
 
     list = ['History', 'Math', 'Physics', 'CompScience']
     print(list[0])
    History
-💁 last value in list `[-1]` 
+💁 `last value` in list `[-1]` 
 
     list = ['History', 'Math', 'Physics', 'CompScience']
     print(list[-1])
