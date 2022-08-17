@@ -148,3 +148,7 @@
    
     print(list[-1])
    CompScience
+### 🟠 slicing:
+❗ not including second, from 0 
+
+    print(list[:2])
