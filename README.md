@@ -148,6 +148,13 @@
    
     print(list[-1])
    CompScience
+   
+💁`returning index`
+
+    list = ['History', 'Math', 'Physics', 'CompScience']
+    print(list.index('Math'))
+   1
+    
 ### 🟠 slicing:
     list = ['History', 'Math', 'Physics', 'CompScience']
 
