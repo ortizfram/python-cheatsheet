@@ -134,13 +134,13 @@
 # *️⃣ Lists, Tuples, and Sets:
 ## 🟡list
     list = ['History', 'Math', 'Physics', 'CompScience']
-### 🟡len()
+### 🟠len()
 ❗gives how many elements are minside
 
     list = ['History', 'Math', 'Physics', 'CompScience']
     print(len(list))
    4
-### 🟡indexing:
+### 🟠indexing:
 ❗always from 0 
 
     print(list[0])
