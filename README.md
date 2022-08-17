@@ -283,7 +283,7 @@
    
    1
 # 🟡 🟡 tuple
-❗ 👁️‍🗨️**IMMUTABLE** (can't append(), can't remove())
+❗ 👁️‍🗨️**IMMUTABLE** (can't append(), can't remove(), can't asign values)
 
 
 
