@@ -209,11 +209,12 @@
     list = ['History', 'Math', 'Physics', 'CompScience']
     list.sort()
     print(list)
-   ['CompScience', 'History', 'Math', 'Physics']
-   
+  
     nums = [1,5,3,6,4]
     nums.sort()
     print(nums)
+   ['CompScience', 'History', 'Math', 'Physics']
+   
    [1, 3, 4, 5, 6]
    
 💁`sort(reverse=True)` sort backwards
