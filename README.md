@@ -133,7 +133,7 @@
    
 # *️⃣ Lists, Tuples, and Sets:
 ## 🟡 🟡 list
-❗**MUTABLE**
+❗👁️‍**MUTABLE**
 
     list = ['History', 'Math', 'Physics', 'CompScience']
 ### 🟠len()
@@ -282,6 +282,9 @@
    6
    
    1
+# 🟡 🟡 tuple
+❗ 👁️‍🗨️**IMMUTABLE**
+
 
 
     
