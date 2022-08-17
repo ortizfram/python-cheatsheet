@@ -104,6 +104,8 @@
    3.8
    
 ## 🟡 comparisons: 
+❗these are booleans
+
 `==`	Equal	
 
 `!=`	Not equal	
