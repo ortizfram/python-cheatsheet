@@ -285,7 +285,26 @@
 # 🟡 🟡 tuple
 ❗ 👁️‍🗨️**IMMUTABLE** (can't append(), can't remove(), can't asign values)
 
+    tuple = ('History', 'Math', 'Physics', 'CompSci
+# 🟡 🟡 set
+❗ 👁️‍🗨️**UNORDERED NO-DUPLICATES** (ORDER CHANGE IN EACH EXECUTION)
+❗ set is optimize to check if value exist IN set
 
+    set = {'History', 'Math', 'Physics', 'CompScience'}
+## 🟠intersection(), difference()
+❗`intersection()` which `common` between `sets`
+
+    cs_courses = {'History', 'Math', 'Physics', 'CompScience'}
+    art_couses = {'History', 'Math', 'Art', 'Design'}
+    
+    print(cs_courses.intersection(art_courses))
+   {'History', 'Math'}   
+   
+❗`difference()` which `difference` between `sets`
 
     
-   
+    cs_courses = {'History', 'Math', 'Physics', 'CompScience'}
+    art_couses = {'History', 'Math', 'Art', 'Design'}
+    
+    print(cs_courses.difference(art_courses))
+   {'Physics', 'CompScience'}
