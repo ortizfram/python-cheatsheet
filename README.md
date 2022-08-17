@@ -39,3 +39,9 @@
    6
    
    -1
+## 🟡replace
+**message** : "Hello World"
+
+    print(message.replace("World","Universe"))
+  Hello Universe
+
