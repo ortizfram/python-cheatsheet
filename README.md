@@ -166,18 +166,20 @@
     print('Art' in list)
    False
    
-💁`for loop`
+💁`for loop + enumerate index` starting in 1
 
     list = ['History', 'Math', 'Physics', 'CompScience']
-    for item in list:
-        print(item)
-   History
+    
+    #same as for item in list
+    for index,item in enumerate (list, start = 1):
+        print(index, item)
+  1 History
    
-   Math
+  2 Math
    
-   Physics
+  3 Physics
    
-   CompScience
+  4 CompScience
 ### 🟠 slicing:
     list = ['History', 'Math', 'Physics', 'CompScience']
 
