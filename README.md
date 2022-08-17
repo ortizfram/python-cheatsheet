@@ -117,3 +117,15 @@
 `>=`	Greater than or equal to	
 
 `<=`	Less than or equal to
+
+## 🟡 from string to number int(),float():
+    num1= '100'
+    num2= '200'
+    print(num1 + num2)
+   ❎ 100200
+   
+    num1= int()
+    num2= int()
+    print(num1 + num2)
+   300
+   
