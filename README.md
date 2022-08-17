@@ -318,3 +318,8 @@
     print(cs_courses.union(art_courses))
    #unordered
    {'History', 'Math', 'Physics', 'CompScience', 'Art', 'Design'}
+## 🟡 creating empty set,tuple,list
+
+    empty_list = list()
+    empty_tuple = tuple()
+    empty_set = set()
