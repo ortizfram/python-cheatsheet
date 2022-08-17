@@ -39,7 +39,7 @@
    6
    
    -1
-## 🟡replace
+## 🟡replace()
 ❗ returns a new string replaced, must assign a variable
 
 **message** : "Hello World"
@@ -49,7 +49,7 @@
   Hello Universe
   
 -------------------------------------------------
-    
+ ## 🟡 concatenate 
     greeting = hi
     name =  Fanco
     message = greeting + " " + name
