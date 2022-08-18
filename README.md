@@ -444,3 +444,17 @@
 3
 
 4
+# *️⃣Funtions:
+👁️‍🗨️ ❗ DON't REPEAT YOURSELF **KEEP IT DRY**
+## 🟡def
+    hello_funct():
+        print('hello man')    #printing
+    hello_funtion()
+    
+    
+    hello_funct2():
+        return 'Hello mannnn'    #returning
+    print(hello_funt2().upper()) 
+hello man
+
+HELLO MANNNN
