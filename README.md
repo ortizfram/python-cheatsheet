@@ -389,6 +389,8 @@
         print('Conditional was true')
     elif language == 'Java':
         print('language is java')
+    elif language == 'JavaScript':
+        print('language is js')
     else:
         print('no match')
    Conditional was true
