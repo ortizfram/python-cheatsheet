@@ -466,3 +466,15 @@ HELLO MANNNN
 
     print(hello_funct('Hi','Franco'))
    Hi, Franco
+## 🟡 unpack values:
+    def student_info(*args,**kwargs):
+        print(args)
+        print(kwargs)
+
+    courses = ['Math','Art']
+    info = {'name': 'Franco', "age":21}
+
+    student_info(*courses,**info)
+('Math', 'Art')
+
+{'name': 'Franco', 'age': 21}
