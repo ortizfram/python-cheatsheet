@@ -458,3 +458,11 @@
 hello man
 
 HELLO MANNNN
+## 🟡scoped arguments FORMAT:
+💁asking for `greeting` message & `name`. `If you not passing name`, there's a `default name value` `='you'`
+
+    def hello_funct(greeting, name = 'you'):
+        return  f'{greeting}, {name}'
+
+    print(hello_funct('Hi','Franco'))
+   Hi, Franco
