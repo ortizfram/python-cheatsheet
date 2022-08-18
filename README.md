@@ -429,7 +429,18 @@
    4
    
  ## 🟡 while
-    x = 0
-    while x < 6:
-        print(x)
-        x += 1
+       x = 0
+       while x < 10:
+           if x == 5:
+               break
+           print(x)
+           x += 1
+0
+
+1
+
+2
+
+3
+
+4
