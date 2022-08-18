@@ -383,8 +383,12 @@
      
 # *️⃣Conditionals & booleans:
 ❗booleans start in `True`
-
+## 🟡if,else,elif
     language = 'Python'
     if language == 'Python':
         print('Conditional was true')
+    elif language == 'Java':
+        print('language is java')
+    else:
+        print('no match')
    Conditional was true
