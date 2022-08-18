@@ -394,3 +394,13 @@
     else:
         print('no match')
    Conditional was true
+ ## 🟡 and,or,not
+     user = 'admin'
+    logged_in = True
+
+    if user == 'admin' and logged_in:
+        print('admin page. Welcome')
+    elif not logged_in:
+        print('please log in ')
+    else:
+        print('bad creds')
