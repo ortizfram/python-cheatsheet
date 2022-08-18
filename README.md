@@ -404,3 +404,28 @@
         print('please log in ')
     else:
         print('bad creds')
+# *️⃣Loop & iteration:
+## 🟡break & continue:
+    nums = [1,2,3,4,5,]
+    for num in nums:
+        if num == 3:
+            print('was found')
+            break
+        print(num)
+   1
+   
+   2
+   
+   was found
+## 🟡range()
+    for i in range(1,5):
+        print(i)
+   1
+   
+   2
+   
+   3
+   
+   4
+   
+   
