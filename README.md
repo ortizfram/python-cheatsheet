@@ -512,11 +512,11 @@ HELLO MANNNN
    ## 🟡 adding new directory to sys.path
    ❗ you do this if module isn't in same directory
    
-   ##💁 from the ide type
+   ### 💁 from the ide type
    
         sys.path.append('\C:\Users\User\Documents\workspace\my_modules')
     
-   ##💁 from system do this:
+   ### 💁 from system do this:
    
    - computer > properties
 
