@@ -510,4 +510,23 @@ HELLO MANNNN
    
    1
    ## 🟡 adding new directory to sys.path
+   ❗ you do this if module isn't in same directory
    
+   ##💁 from the ide type
+   
+        sys.path.append('\C:\Users\User\Documents\workspace\my_modules')
+    
+   ##💁 from system do this:
+   
+   - computer > properties
+
+   - advanced  sys settings
+
+   - Environment variables >> create new
+
+   - name = `PYTHONPATH`,  location = `\C:\Users\User\Documents\workspace\my_modules`  #unique for own machine
+
+   - CMD : import (module name)
+
+   - type : `sys.path` to check f location was added as first line
+    
