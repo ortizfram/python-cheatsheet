@@ -478,3 +478,33 @@ HELLO MANNNN
 ('Math', 'Art')
 
 {'name': 'Franco', 'age': 21}
+
+# *️⃣Importing modules:
+❗ you 're importing module from an other document, go to the to of the file & import module from same directory `module_name=``document name`
+
+ **module**
+    
+    #my_module
+    print('Imported my_module...')
+
+    test = 'Test String'
+
+    def find_index(to_search, target):
+        '''Find the index of a value in a sequence'''
+        for i, value in enumerate(to_search):
+            if value == target:
+                return i
+
+        return -1
+**apply module**
+    
+    import my_module as mm
+    
+    courses = ['History', 'Math', 'Physics', 'CompSci']
+    
+    index = mm.find_index(courses, 'Math')
+    print(index)
+    
+   imported my_module...
+   
+   1
