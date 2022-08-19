@@ -480,8 +480,9 @@ HELLO MANNNN
 {'name': 'Franco', 'age': 21}
 
 # *️⃣Importing modules:
-❗ you 're importing module from an other document, go to the to of the file & import module from same directory `module_name=``document name`
-
+❗ you 're importing module from an other document, go to the to of the file & import module from same directory 
+`module_name=``document name`
+## 🟡importing
  **module**
     
     #my_module
@@ -508,3 +509,5 @@ HELLO MANNNN
    imported my_module...
    
    1
+   ## 🟡 adding new directory to sys.path
+   
