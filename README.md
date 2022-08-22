@@ -602,4 +602,22 @@ HELLO MANNNN
         
         for line in csv_reader:
             print(line[2]) #printing just emails[2]
+## 🟡 write to a csv:
+💁 for loop is for rewriing in a new file with slash separated values 
 
+    import csv
+    
+    with open('names.csv','r') as csv_file:
+        csv_reader = csv.reader(csv_file)
+        
+        with open('new_names.csv','w') as new_file:
+            csv_writer = csv.writer(new_file, delimiter= '-')
+            
+             for line in csv_reader:
+                 csv_writer.writerow(line)
+  first_name-last_name-email
+  
+  Jhon-Doe-"jhondoe@gmail.com"
+  
+  mary-smith-"marysmith@hotmail.com"
+                
